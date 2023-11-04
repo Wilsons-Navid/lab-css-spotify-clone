@@ -6,3 +6,203 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    box-sizing: border-box;
+
+}
+
+.navigation img{
+   /* width: 5em;
+    height: 2em; */
+    Width: 10vw;
+    height: 5vh;
+    align-self:flex-start;
+    position: fixed; 
+    left: 2vw;
+    top: 10px;
+    z-index: 1; 
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFF;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0vw;
+    top: 0px;
+    z-index: 1;
+    width: 100vw;
+    margin-top: 0%;
+
+
+
+}
+
+.navigation a{
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+li {
+    list-style: none;
+
+}
+
+.Landing img{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+.absolute{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 60vw;
+    height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid transparent;
+    top: 50vh;
+    left: 20vw;
+    line-height: 5%;
+    
+
+}
+
+h2{
+    font-size: 5em;
+
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+
+.container-offers{
+    width: 100vw;
+    height: 40vh;
+    border: 2px solid transparent;
+}
+
+.container-offers img{
+    width: 100px;
+    height: 100px;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.offers{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+}
+
+.offers p{
+    font-size: 1rem;
+    line-height: 0%;
+    text-align: center;
+}
+
+.offers h3{
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(17, 148, 93);
+}
+
+.Millions-of-songs{
+   text-align: center;
+   border: 2px solid transparent;
+   width: 30vh;
+   height: 30vh;
+}
+
+.HD-Music{
+text-align: center;
+width: 30vh;
+height: 30vh;
+border: 2px solid transparent;
+}
+
+.Stream-Everywhere{
+text-align: center;
+width: 30vh;
+height: 30vh;
+border: 2px solid transparent;
+}
+
+.last-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+}
+
+.last-container1{
+    background-color: #00B172;
+    width: 98vw;
+}
+
+.Spotify-app img{
+    height: 70vh;
+    width: 23vw;
+}
+
+.last-container h4{
+    color: white;
+    font-size: 1.5em;
+}
+
+.last-container1 h3{
+    color: white;
+    margin-left: 8.9vw;
+    margin-top: 4px;
+    padding-top: 10px;
+    font-weight: 1000;
+    margin-bottom: 0%;
+    font-size: 2em;
+}
+.Action{
+    line-height: 100%;
+}
+
+.last-container1 hr{
+    width: 25vw;
+    height: 3px;
+    color: #FFF;
+    margin-left: 8.9vw;
+    font-weight: 900;
+}
+
+.Action p{
+    font-weight:100;
+    font-size: 1.2em;
+
+}
+
+.navigation a:hover{
+    background-color: aqua;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 1em;
+    color: black;
+    font-weight: 700;
+    
+}
+
+.navigation img:hover{
+   Width: 10vw;
+   height: 5vh;
+}
